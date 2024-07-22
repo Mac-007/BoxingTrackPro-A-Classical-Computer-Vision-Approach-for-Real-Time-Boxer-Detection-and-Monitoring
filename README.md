@@ -10,7 +10,9 @@ This project aims to provide an efficient and accurate method to track boxers' p
 - **Classical Image Processing Algorithms**: Utilizes image processing techniques like HSV color thresholding, morphological operations, and contour detection.
 - **Output Generation**: Produces an annotated video and a NumPy file containing the tracked positions and movements of the boxers.
 
+
 ### Workflow
+![2_Pipeline](https://github.com/user-attachments/assets/e287442a-8056-42e1-9762-2d7620e61228)
 1. **Video Capture and Initialization**: Read the input video file and initialize necessary parameters.
 2. **HSV Color Thresholding (Blue & Red)**: Convert the video frames to HSV color space and apply color thresholds to isolate the blue and red regions corresponding to the boxers.
 3. **Morphological Operations (Erosion and Dilation)**: Perform morphological operations to clean up noise and improve the detection accuracy.
@@ -21,6 +23,9 @@ This project aims to provide an efficient and accurate method to track boxers' p
 8. **Frame Display**: Display the processed frames with annotated bounding boxes and centroids.
 9. **Positional Data Storage**: Store the positional data of the boxers in a NumPy file for further analysis.
 10. **Output Video Generation**: Generate an output video with the tracked positions and movements of the boxers.
+
+### Output
+![Picture3](https://github.com/user-attachments/assets/5f856dab-4aeb-4451-ab5b-96c84a5372d7)
 
 ### Installation
 To use BoxingTrackPro, follow these steps:
@@ -33,6 +38,7 @@ To use BoxingTrackPro, follow these steps:
 
 ### License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
 
 
 ### Contact
